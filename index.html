@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selezione Galleria con Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Agro-meteorological Forecasting INDices</h1>
+    <div class="selector">
+        <button onclick="showGallery('galleria1')">TXd</button>
+        <button onclick="showGallery('galleria2')">Galleria 2</button>
+        <button onclick="showGallery('galleria3')">Galleria 3</button>
+        <button onclick="showGallery('galleria4')">Galleria 4</button>
+    </div>
+
+    <!-- Galleria 1 -->
+    <div id="galleria1" class="gallery" style="display: none;">
+        <h2>Maximum daily temperature</h2>
+        <div class="slider">
+            <button class="prev" onclick="plusSlides(-1, 0)">&#10094;</button>
+            <div class="slides-container">
+                <img src="TXd/TXd_20240905000905.png" alt="Immagine 1" class="slide">
+                <img src="TXd/TXd_20240905000906.png" alt="Immagine 2" class="slide">
+                <img src="TXd/TXd_20240905000907.png" alt="Immagine 3" class="slide">
+                <img src="TXd/TXd_20240905000908.png" alt="Immagine 4" class="slide">
+                <img src="TXd/TXd_20240905000909.png" alt="Immagine 5" class="slide">
+                <img src="TXd/TXd_20240905000910.png" alt="Immagine 6" class="slide">
+                <img src="TXd/TXd_20240905000911.png" alt="Immagine 7" class="slide">
+            </div>
+            <button class="next" onclick="plusSlides(1, 0)">&#10095;</button>
+        </div>
+    </div>
+
+    <!-- Galleria 2 -->
+    <div id="galleria2" class="gallery" style="display: none;">
+        <h2>Galleria 2</h2>
+        <div class="slider">
+            <button class="prev" onclick="plusSlides(-1, 1)">&#10094;</button>
+            <div class="slides-container">
+                <img src="immagini/img8.jpg" alt="Immagine 1" class="slide">
+                <img src="immagini/img9.jpg" alt="Immagine 2" class="slide">
+                <img src="immagini/img10.jpg" alt="Immagine 3" class="slide">
+                <img src="immagini/img11.jpg" alt="Immagine 4" class="slide">
+                <img src="immagini/img12.jpg" alt="Immagine 5" class="slide">
+                <img src="immagini/img13.jpg" alt="Immagine 6" class="slide">
+                <img src="immagini/img14.jpg" alt="Immagine 7" class="slide">
+            </div>
+            <button class="next" onclick="plusSlides(1, 1)">&#10095;</button>
+        </div>
+    </div>
+
+    <!-- Galleria 3 -->
+    <div id="galleria3" class="gallery" style="display: none;">
+        <h2>Galleria 3</h2>
+        <div class="slider">
+            <button class="prev" onclick="plusSlides(-1, 2)">&#10094;</button>
+            <div class="slides-container">
+                <img src="immagini/img15.jpg" alt="Immagine 1" class="slide">
+                <img src="immagini/img16.jpg" alt="Immagine 2" class="slide">
+                <img src="immagini/img17.jpg" alt="Immagine 3" class="slide">
+                <img src="immagini/img18.jpg" alt="Immagine 4" class="slide">
+                <img src="immagini/img19.jpg" alt="Immagine 5" class="slide">
+                <img src="immagini/img20.jpg" alt="Immagine 6" class="slide">
+                <img src="immagini/img21.jpg" alt="Immagine 7" class="slide">
+            </div>
+            <button class="next" onclick="plusSlides(1, 2)">&#10095;</button>
+        </div>
+    </div>
+
+    <!-- Galleria 4 -->
+    <div id="galleria4" class="gallery" style="display: none;">
+        <h2>Galleria 4</h2>
+        <div class="slider">
+            <button class="prev" onclick="plusSlides(-1, 3)">&#10094;</button>
+            <div class="slides-container">
+                <img src="immagini/img22.jpg" alt="Immagine 1" class="slide">
+                <img src="immagini/img23.jpg" alt="Immagine 2" class="slide">
+                <img src="immagini/img24.jpg" alt="Immagine 3" class="slide">
+                <img src="immagini/img25.jpg" alt="Immagine 4" class="slide">
+                <img src="immagini/img26.jpg" alt="Immagine 5" class="slide">
+                <img src="immagini/img27.jpg" alt="Immagine 6" class="slide">
+                <img src="immagini/img28.jpg" alt="Immagine 7" class="slide">
+            </div>
+            <button class="next" onclick="plusSlides(1, 3)">&#10095;</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
